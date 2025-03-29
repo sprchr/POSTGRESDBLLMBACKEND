@@ -161,7 +161,7 @@ DB_PORT=<your_db_port>
 ## Notes
 
 -   Ensure that the PostgreSQL database and Pinecone index are properly configured and accessible.
--   The GPT model used is `gpt-4`, which requires an OpenAI API key with access to GPT-4.
+-   The GPT model used is `gpt-4o-mini`, which requires an OpenAI API key with access to GPT-4.
 -   Error handling is implemented to catch exceptions and return appropriate error messages.
 -   The `schema_index.py` needs to be run once to index the database schema.
 -   The Pinecone environment is set to `us-west1-gcp` in this example. Modify it if needed.
